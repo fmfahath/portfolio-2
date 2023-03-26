@@ -37,12 +37,16 @@
         background: rgba(0,0,0,0.9);
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: -3;
     }
 
+    .nav-menu.active{
+        left: 0;
+    }
+
     .nav-menu li{
-        padding: 1rem0;
+        padding: 1rem;
     }
 
     .nav-menu li a{
