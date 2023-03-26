@@ -49,3 +49,9 @@
 .hero-content .btn{
     margin: 1rem 0.2rem;
 }
+
+@media screen and  (max-width: 900px) {
+    .hero-content h1{
+        font-size: 3rem;
+    }
+}
