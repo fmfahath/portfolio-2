@@ -10,8 +10,8 @@ const HeroImg = () => {
                 <img className='hero-img' src={heroImg} alt='hero-img'></img>
             </div>
             <div className='hero-content'>
-                <p>HI,I'M A FREEELANCER</p>
-                <h1>React Developer</h1>
+                <p>HI, I'M A FREELANCER</p>
+                <h1>React Developer.</h1>
                 <div className='hero-content-btn'>
                     <Link className='btn' to='/project'>Projects</Link>
                     <Link className='btn btn-light' to='/contact'>Contact</Link>
