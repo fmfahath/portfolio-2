@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {FaHome,FaPhone,FaMailBulk, FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
                 <div className='address location'>
                     <FaHome  size={20} style={{color:'#fff', marginRight : '1rem'}}/>
                     <div className='location-text'>
-                    <p>Orien City</p>
-                    <p>Colombo</p>
-                    <p>Sri Lanka</p>
+                    <p>Orien City Building,</p>
+                    <p>Colombo,</p>
+                    <p>Sri Lanka.</p>
                     </div>
                 </div>
 
@@ -39,9 +40,9 @@ const Footer = () => {
                         websites, test them, and put them online</p>
                 </div>
                 <div className='social'>
-                    <FaFacebook  size={30} style={{color:'#fff', marginRight : '1rem'}}/>
-                    <FaGithub  size={30} style={{color:'#fff', marginRight : '1rem'}}/>
-                    <FaLinkedin  size={30} style={{color:'#fff', marginRight : '1rem'}}/>
+                    <Link><a><FaFacebook /></a></Link>
+                    <Link><a><FaGithub  /></a></Link>
+                    <Link><a><FaLinkedin  /></a></Link>
                 </div>
             </div>
         </div>
