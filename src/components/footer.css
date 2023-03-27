@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.5);
+}
+
+.footer-container{
+    /* width: 100%; */
+    max-width: 1140px;
+    padding: 3rem;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left .location{
+    display:    flex;
+    margin-bottom: 1rem;
+}
+
+.left .location p{
+    line-height: 30px;
+}
+
+.left .address{
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h3{
+    margin-bottom: 1rem;
+}
+
+.right .social{
+    margin-top: 1rem;
+}
+
+
+
