@@ -5,12 +5,28 @@ import {FaBars, FaTimes} from "react-icons/fa"
 
 const Navbar = () => {
 
+    //change menu icon
     const [click, setClick] = useState(false);
 
     const  handlClick =  () => setClick(!click);
 
+    
+    // change NavBar bg color while sccrolling
+    const [bgColor, setBgColor] = useState(false);
+    
+    const changeColor  = () => {
+        if(window.scrollY  >= 1){
+            setBgColor(true)
+        }else{
+            setBgColor(false)
+        }
+    };
+
+    window.addEventListener('scroll', changeColor)
+    
+
     return (
-        <div className='header'>
+        <div className={bgColor ? 'header header-bg' : 'header'}>
             {/* logo */}
             <div className='nav-logo'>
                 <Link to='/'>Portfolio</Link>
