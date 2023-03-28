@@ -21,7 +21,7 @@ const ProjectCard = () => {
                 <NavLink to='url.com' className='btn'>Source</NavLink>
             </div>
         </div>
-        <div className='project-card'>
+        {/* <div className='project-card'>
             <div className='project-card-img'>
                 <img src={ProjectImg2}></img>
             </div>
@@ -46,7 +46,7 @@ const ProjectCard = () => {
                 <NavLink to='url.com' className='btn'>View</NavLink>
                 <NavLink to='url.com' className='btn'>Source</NavLink>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
