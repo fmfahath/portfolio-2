@@ -1,0 +1,36 @@
+.hero-template{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+
+
+.hero-template-content{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center; */
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-template-content h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+
+.hero-template-content p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
