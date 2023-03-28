@@ -1,17 +1,23 @@
 .project-card-container{
    width: 100%; 
    margin: auto;
-   background-color: rgba(24, 23, 23, 0.3);
+   background-color: rgba(32, 32, 32, 0.3);
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    text-align: center;
    grid-gap: 20px;
    padding: 2rem 4rem;
+   
 }
 
 .project-card{
    padding:1rem;
+   transition: 0.3s;
 }
+
+.project-card:hover{
+    background-color: rgba(0,0,0,0.9);
+ }
 
 .project-card .project-card-img img{
    width: 100%;
@@ -32,4 +38,8 @@
     padding: 10px 24px;
 }
 
-
+@media screen and (max-width:900px){
+    .project-card-container{
+        grid-template-columns: 1fr;
+    }
+}
