@@ -46,14 +46,25 @@
 }
 
 .hero-template-content h1{
-    font-size: 2rem;
-    letter-spacing: 1px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
     font-weight: 500;
 }
 
 
 .hero-template-content p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+@media screen and  (max-width:900px){
+    .hero-template-content h1{
+        font-size: 2rem;
+    }
+    
+    
+    .hero-template-content p{
+        font-size: 1rem;
+    }
 }
