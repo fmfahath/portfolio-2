@@ -4,10 +4,13 @@ import HeroTemplate from '../components/HeroTemplate'
 import Navbar from '../components/Navbar'
 
 const Project = () => {
+
+  const heading = 'Projects';
+  const text = 'Some of my most recent works';
   return (
     <div>
       <Navbar/>
-      <HeroTemplate heading={'Projects'} text={'Some of my most recent works'}/>
+      <HeroTemplate heading={heading} text={text}/>
       <Footer/>
     </div>
   )
