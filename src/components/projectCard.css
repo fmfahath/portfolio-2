@@ -4,14 +4,14 @@
    background-color: rgba(32, 32, 32, 0.3);
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   text-align: center;
+   /* text-align: center; */
    grid-gap: 20px;
    padding: 2rem 4rem;
    
 }
 
 .project-card{
-   padding:1rem;
+   padding: 1rem;
    transition: 0.3s;
 }
 
