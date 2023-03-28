@@ -1,0 +1,35 @@
+.project-card-container{
+   width: 100%; 
+   margin: auto;
+   background-color: rgba(24, 23, 23, 0.3);
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   text-align: center;
+   grid-gap: 20px;
+   padding: 2rem 4rem;
+}
+
+.project-card{
+   padding:1rem;
+}
+
+.project-card .project-card-img img{
+   width: 100%;
+}
+
+.project-card .project-card-details h3, p{
+    margin: 1rem 0;
+}
+
+.project-card .project-card-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.project-card .project-card-btn .btn{
+    padding: 10px 24px;
+}
+
+
