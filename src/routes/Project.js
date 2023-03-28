@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import HeroTemplate from '../components/HeroTemplate'
 import Navbar from '../components/Navbar'
+import PriceCard from '../components/PriceCard'
 
 const Project = () => {
 
@@ -11,6 +12,7 @@ const Project = () => {
     <div>
       <Navbar/>
       <HeroTemplate heading={heading} text={text}/>
+      <PriceCard/>
       <Footer/>
     </div>
   )
