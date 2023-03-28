@@ -3,7 +3,12 @@ import './heroTemplate.css'
 
 const HeroTemplate = () => {
   return (
-    <div>HeroTemplate</div>
+    <div className='hero-template'>
+        <div className='hero-template-content'>
+            <h1>This is a Heading</h1>
+            <p>this is a text</p>
+        </div>
+    </div>
   )
 }
 
