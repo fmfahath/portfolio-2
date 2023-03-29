@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const ProjectCard = (props) => {
   return (
-        <div className='project-card'>
+        <div className='project-card' key={props.ind}>
             <div className='project-card-img'>
                 <img src={props.imgSrc}></img>
             </div>

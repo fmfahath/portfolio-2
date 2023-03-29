@@ -8,7 +8,7 @@ import Projects from '../components/Projects'
 
 const Project = () => {
 
-  const heading = 'Projects';
+  const heading = 'PROJECTS';
   const text = 'Some of my most recent works';
   return (
     <div>
